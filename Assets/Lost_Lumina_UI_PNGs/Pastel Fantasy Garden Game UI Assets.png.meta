@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 3e97987655735c44eb733b3ec2b6e483
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 282
+        width: 538
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835a18bc3010a224a8bcd90a7640f9d5
+      internalID: -752601354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 634
+        width: 576
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90e1bdc9486d8d4589e9f288633ce27
+      internalID: 93137049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 194
+        width: 550
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b00924204c0c248a95827cc8a05d77
+      internalID: 192253417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 37
+        width: 325
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf9514facd78144fb34c6ac4c37d421
+      internalID: -1564172092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_4
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 24
+        width: 232
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a935e897817581b48bff2937ebad5a1a
+      internalID: 1062409484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_5
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 250
+        width: 210
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3020268d2b3204c81aff2fd413c989
+      internalID: 531610108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_6
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 534
+        width: 239
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6369d41e58ca9ad47b032ee51f258fa3
+      internalID: -1615210279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_7
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 149
+        width: 126
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6ad165abe0e9f4a92d339cb67afb3f
+      internalID: -239399458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_8
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 667
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15110dcb3e03dbb468ba2f408aca2e03
+      internalID: 1799994824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_9
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 669
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e303730f16ff8459e4cb280a43e1a1
+      internalID: 185865394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_10
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 664
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abe4973488e10d4ba8e5f0ee2a48136
+      internalID: -716379662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_11
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 753
+        width: 121
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed40240c0b4214a4890c84106fabd8a6
+      internalID: -1077584040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_12
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 753
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238c9dc95fb234c439daad7ba0f98256
+      internalID: 205885674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_13
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 751
+        width: 120
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9f7e809c423094fab8c1f987c55117
+      internalID: 350156214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_14
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 879
+        width: 329
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ff87e953b049349a629d1e70c33a4f
+      internalID: -406898722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Fantasy Garden Game UI Assets_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 30
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57752d71361bb17449adc194f2e09ce6
+      internalID: -1638730935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 43e03b0aebe755943acc400d6df22127
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pastel Fantasy Garden Game UI Assets_0: -752601354
+      Pastel Fantasy Garden Game UI Assets_1: 93137049
+      Pastel Fantasy Garden Game UI Assets_10: -716379662
+      Pastel Fantasy Garden Game UI Assets_11: -1077584040
+      Pastel Fantasy Garden Game UI Assets_12: 205885674
+      Pastel Fantasy Garden Game UI Assets_13: 350156214
+      Pastel Fantasy Garden Game UI Assets_14: -406898722
+      Pastel Fantasy Garden Game UI Assets_15: -1638730935
+      Pastel Fantasy Garden Game UI Assets_2: 192253417
+      Pastel Fantasy Garden Game UI Assets_3: -1564172092
+      Pastel Fantasy Garden Game UI Assets_4: 1062409484
+      Pastel Fantasy Garden Game UI Assets_5: 531610108
+      Pastel Fantasy Garden Game UI Assets_6: -1615210279
+      Pastel Fantasy Garden Game UI Assets_7: -239399458
+      Pastel Fantasy Garden Game UI Assets_8: 1799994824
+      Pastel Fantasy Garden Game UI Assets_9: 185865394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

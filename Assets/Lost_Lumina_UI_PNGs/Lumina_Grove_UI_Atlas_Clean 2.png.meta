@@ -1,0 +1,6720 @@
+fileFormatVersion: 2
+guid: 21897b25ee51f84418ef320ecd211f46
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1205
+        width: 499
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e028c2fe1180d74a8ae374a94fcb80b
+      internalID: 921936072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1192
+        width: 362
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea23eccec3996f4ba95a0a027fad2c3
+      internalID: 241166257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1564
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cf993a6c3bf3d40b05f35ec74fd2e9
+      internalID: 974104739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_4
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1192
+        width: 350
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d5834ffdf46d14c921dfb98de411d1
+      internalID: 177524772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_9
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1180
+        width: 432
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff89cf30cd7500c4995ba04a386b9dc1
+      internalID: 765216561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_10
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1200
+        width: 321
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19bd1ba63b898b4f8c1474ff72ea9c1
+      internalID: 2090959648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_11
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1522
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e659645d8ab54478488f76adb60c9e
+      internalID: 665584487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_12
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 897
+        width: 318
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b092334bbc25e4e8c822299abf6ca1
+      internalID: 1736124249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_13
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1508
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1518f791119c4394089cd152223004aa
+      internalID: -1718819378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_19
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1199
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6291ee8fc31d804f9a423c91a460b3a
+      internalID: 102475794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 866
+        width: 482
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ffa966ea30e734abcb8b74e51e64eb
+      internalID: -1093666724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_21
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1192
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cda78e15f2789946b2749a61d9c24f4
+      internalID: 1145289725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_24
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1188
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c81b5d6962b8094ea6a3632ddb8cc8b
+      internalID: 772164790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_26
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 854
+        width: 383
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9d0bec2b314bb498a11e4fcf0d094f
+      internalID: 142286225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_28
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1175
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de610bfb0c2ae684bba435ed5ad2df32
+      internalID: 210849683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_29
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1168
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa05d24fd295564882633139119ca87
+      internalID: 469423059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_30
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 854
+        width: 335
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c83fb1694749d84e8a93fdd7df55199
+      internalID: 806576313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_33
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 1168
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb80bb0f23535f04e8c3b08c96ed479d
+      internalID: -1851633966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_36
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 862
+        width: 366
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e9ef27f5e5faa4ea4652a32e2483b6
+      internalID: 1931785145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_38
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 856
+        width: 418
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b73c3e23c3a2b448e419e54f88a887
+      internalID: -1980453974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_39
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3484817fad4521468c3dd3afd5bdf9d
+      internalID: -1457742585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1070
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450cafbb39912db43ab8055698cd4461
+      internalID: 690990497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_41
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1043
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3d8866164fe3547a2166598913e2bb
+      internalID: 82092733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_42
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 890
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cb14009d332b349801351fafc7fec4
+      internalID: 1698585374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_43
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 864
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6849a87ca39c747bc50047d1b8be4d
+      internalID: 1967159139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_44
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 862
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215a0f28ebe197341bebc4ea8154fcd9
+      internalID: 1297649897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_45
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 862
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee92cd3aef60474bacec6c9c4f87fc2
+      internalID: 612858482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_46
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 862
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f3d331a89530749b61feff4c37b0eb
+      internalID: -1234187485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_47
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 625
+        width: 184
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c9ba8f1c8af3d4ab02ae526773a58c
+      internalID: -226249632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_48
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 622
+        width: 234
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f36af9c5eb9a47adfa3d468e2557c
+      internalID: 1581454022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 764
+        width: 321
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ccece9029bef2438232c2b7d1c81c8
+      internalID: 35913196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_50
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 767
+        width: 299
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277695321a50bfe4793c4af06a87b81c
+      internalID: -1403442498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_51
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 855
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51173efec1da2b14f90e82a7fd86f543
+      internalID: -1675141791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_52
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 848
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bf77e34c606bf4280b761ef6e74b8e
+      internalID: 1236997562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_53
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 743
+        width: 339
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10710631de70ba640aedb6441774c64b
+      internalID: 515054385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_54
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 855
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81688e57def3b14e8cfe30e2eb254f0
+      internalID: -1269051089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_55
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 841
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378a97f53a103c146954891681b53a45
+      internalID: -879142830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_56
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 759
+        width: 210
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaddc91fcb9b9a42b33d6e87c8a85ad
+      internalID: -350738650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_57
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 812
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f346cfd5ed0cbd4f89e9f713417e545
+      internalID: -985683384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_58
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 764
+        width: 268
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8100efc041ca88440848750d4313a90a
+      internalID: 643993016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_59
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 757
+        width: 112
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61f87e11f1d6da438dcdfd565ee6f9a
+      internalID: -2128731788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_60
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 757
+        width: 188
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed2aee0c2915de4180bb27031ab3d99
+      internalID: 469103559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_62
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 681
+        width: 300
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637f80ffe57ab244a9b4f748d99ca099
+      internalID: 861313839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_64
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 771
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516176f8d9af410459ecd5e945719169
+      internalID: 211231393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_65
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 653
+        width: 293
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de092b26e47aa34eb1b4397a034078f
+      internalID: -149215283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_66
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 765
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656ac579927a73e48866cc35d5e698c5
+      internalID: -1339049734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_67
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 744
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d0f876b7fe3946a0992363fee435a
+      internalID: -2107329689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_68
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 764
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebf0792490be3e478d8e10aa5f972a0
+      internalID: 831582453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 751
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddf32ca65cad69489e4465f7813e997
+      internalID: 211587953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_70
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 646
+        width: 269
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234097e67134c1b4ea1e8b4e4d36304a
+      internalID: -1048122689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_71
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 744
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8ae974ac384894e8eef7573d495b82
+      internalID: 1731906183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_72
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 667
+        width: 223
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4c9599f036f9d4ab286babe1407fb0
+      internalID: 1187393497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_73
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 751
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1da094384ae4dd44a3a6f5b5469a7e7
+      internalID: -1278804858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_75
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 651
+        width: 114
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bde489b9d208ce4d8e4135792fc91b3
+      internalID: 1722660524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_76
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 653
+        width: 106
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeba265a36f2214dabf98bce685bfe5
+      internalID: -1765829145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_77
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 653
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c70eb7efffbcb4bac6c55e6483544a
+      internalID: -955615478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_78
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 653
+        width: 126
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1db97dd269c2b140a092c7eb29ef9bf
+      internalID: -390213806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_79
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 679
+        width: 194
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cfad9a0124ad14e86819392df81554
+      internalID: -925259518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_80
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 695
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bad301f7236eb4a81326a619fb1492
+      internalID: 44493786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_81
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 577
+        width: 279
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0a7af8f04b9224abc49ffe42a0cd7d
+      internalID: 1562843082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_82
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 674
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7002de33509cb4188a7c2bf4995603
+      internalID: -872159698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_83
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 674
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5a1efc5fef44146b5b4ceb926aa784
+      internalID: -135374355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_84
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 667
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e9978da02e56d4c953010721f27757
+      internalID: 676176053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_85
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 674
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b83ab4661d9914ba89e06c2751cdac
+      internalID: 1312148677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_86
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 576
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde2670ef86b0b8428351ec5b4659d35
+      internalID: -693300963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_87
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 660
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30705066baae79448a4ee0b9ae0c4092
+      internalID: -1405646002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_88
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 660
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6526248c07a53894b8f3e12938952947
+      internalID: -291383238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_89
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 576
+        width: 98
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a565330036ab146991e7e2e264c848
+      internalID: 1711945808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_90
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 576
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537f33df44018fc46a10b1b5a498db92
+      internalID: 1652549921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_91
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 646
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb76dc078a6784429e19028514f4296
+      internalID: -1623522666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_92
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 648
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a00a9a36b141c4e81d9018dfa96699
+      internalID: -1392900624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_93
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 651
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc2642f632f934e975341413ff333d
+      internalID: 1440013359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_94
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 649
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b3abe24dcdb49459644554ad1d6b6d
+      internalID: -1882106872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_95
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 576
+        width: 91
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418916f7a894e5e419b1edaa9a07845d
+      internalID: -306948270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caac81cf18030554c968c59a22a7391d
+      internalID: -2120140317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_97
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 549
+        width: 189
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a23ecb147f3e064ab85a5ea57442d4d
+      internalID: 487281094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_98
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 639
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0722a15fe684742aea749e3349a454
+      internalID: 1637172728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_99
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 553
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08fa5de4c67b4f4ba83081f797b34db
+      internalID: 45077664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_100
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 549
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c4f76aec28f4a44bcfc0aa8398f27f
+      internalID: -649678192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_101
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 557
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a3fa43450468a44ba879b58e239959
+      internalID: -2096121080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_102
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 559
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf755e5143632174daf0c2e4455ac220
+      internalID: 2077748846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_103
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 556
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f066f3d38703f44e8a5ca27afccbf76
+      internalID: 1602437521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_104
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 558
+        width: 99
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8a58d861e543b4a985ff258609143f
+      internalID: 1363694720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_105
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 556
+        width: 124
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b957e5123f60bcf439a39846f1bb6df9
+      internalID: -137166596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_106
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 612
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115bfe273fecdfc45b9fbc6ce9a15726
+      internalID: -772014567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_107
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 555
+        width: 102
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c1007bd6f128d479ec14d3eb276843
+      internalID: -506393137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_108
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 507
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbe33b050d4b994f9ca99c92c0f4501
+      internalID: 1165046036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_109
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 450
+        width: 125
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9222e4c0eeb5f2845b075bf87b3096cf
+      internalID: 2024731701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_110
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 599
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a4d95978773b843ab0ebe45e750380
+      internalID: 827026967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_111
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 604
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1839013bab6702449a2426dc6200efe8
+      internalID: 987169244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_112
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 591
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5720b8f6ebba4ca9608facb6b9621
+      internalID: 76804304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_113
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 591
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e46d1b16be1c4cba3126b252a6867
+      internalID: 317192769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_114
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 592
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f29522c16327b48ba292138610c297
+      internalID: -1815083223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_115
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 507
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85ae73c078ee234a91896f5191c9f08
+      internalID: 1063442305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_116
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 563
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0878c7e2da4a8fb469d83d9f4b2b2b31
+      internalID: -993652505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_117
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 570
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024c66bff2b5dbf498db3f3cd05c85aa
+      internalID: -1808097841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_118
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 570
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89557bb2546b259439dc65ff6e09b2b7
+      internalID: 483017892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_119
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 577
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57c73f30ed48d14a828278c51a2604f
+      internalID: 1309186284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_120
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 577
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51173bbf67a980439c4043371b1277a
+      internalID: -2093658283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_121
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 535
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b65978f5bbc07549b3e0d4bc8f5d7d4
+      internalID: 1900438424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_122
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 471
+        width: 279
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469050506fc7f43419deac0d558218b5
+      internalID: 1409228602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_123
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 563
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaad4dba15ae8e4db8382b9ab89a274
+      internalID: 1204702882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_124
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 556
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7793c4dd5033a9498999c2d5ba91c39
+      internalID: -309932085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_125
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 486
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a51f65783e4a284f85fbe19cda5c6ff
+      internalID: 789461776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_126
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 480
+        width: 98
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2a485e9c680aa4dbe82298c6a33d11
+      internalID: -114691170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_127
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 486
+        width: 91
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2149e3eadd1a04fa71ebc96ad861da
+      internalID: 2127995948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_128
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 486
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528758b69ef71f344b47e66918ef3dd1
+      internalID: -1741634515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_129
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 569
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ce8a37412728243b8f4b67f139969b
+      internalID: -2120452935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_130
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 507
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf86c50e91b052349be8192e3710ddf3
+      internalID: 562129339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_131
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 556
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bf7210858987d4596e700203d02215
+      internalID: -1808013236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_132
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 549
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65549bf8acfd6542943a6c8301919ad
+      internalID: 869107091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_133
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 556
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35581283c213f94c95f3ff384d7d763
+      internalID: -1984702056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_134
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 549
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e7fb7155ac1334baac4ce2c557f653
+      internalID: 1519058567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_135
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 556
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3ee80d8e8f0bc44b35a0c6223f5592
+      internalID: 715867608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_136
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 450
+        width: 289
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1fb3774d2b0134783af7599ab1bfd0
+      internalID: 886583736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_137
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 550
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dc624470fc7f14eb0621440eac6c08
+      internalID: -1491726581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_138
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 452
+        width: 127
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ff6ceef8bbf6459e53df95e5c18f4
+      internalID: -1965062559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_139
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 521
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c3bfb36db0f62458a232a24a3fd2bc
+      internalID: -1404443319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_140
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 455
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be16bf3f3946ef49801df5871ac2de2
+      internalID: 335206692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_141
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 535
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9944b24ccbcc7428d0737e8edb7878
+      internalID: -1369791529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_142
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 452
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f3575dcbcda56489eb1ea1bf7579bc
+      internalID: 1588483638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_143
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 458
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f284f646d5c9c448ebf4807871976d
+      internalID: 175577789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_144
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 458
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b433515400b0a64f93d9eb7c1eedabe
+      internalID: 1891403246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_145
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 459
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663f49ce51b96cc499fd693365f7c2f0
+      internalID: 588334584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_146
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 458
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be49e23f51c3fb4bb8009a2e641bdad
+      internalID: -1029032818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_147
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 535
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619c23919e4bbfe48bbdadf896a596fb
+      internalID: 1261147390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_148
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 431
+        width: 112
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd4cf113fed0b0499d986104d7cadd8
+      internalID: -867938287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_149
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 528
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065136b8de4a3ac45a2f3f958453799b
+      internalID: 1015752020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_150
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 500
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e190211cd4fe241bf5df0117c3e4a7
+      internalID: -282184459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_151
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 500
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663e1e2178a4c2148b0ca5c90c6f8107
+      internalID: -2129848439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_152
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 500
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c51641a39d46c5469eba4a516658cbd
+      internalID: 542076281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_153
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 465
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2ad21a1d41dd44cad83aac0b4d300e
+      internalID: -513071840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_154
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 500
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f734e9d00d79a3428146a9d589cc92c
+      internalID: -919285297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_155
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 487
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12599c64e02830441beea5e6574153b2
+      internalID: 1321208587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_156
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 480
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6a41fe7404265479f67ce272a5ff3f
+      internalID: -1688897342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_157
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 483
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4220e2cef44523844a357985f88da31e
+      internalID: 1929717680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_158
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 375
+        width: 105
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fe455ad331d9142bc616f8002eecda
+      internalID: 1207326958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_159
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 473
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530a6241fa33f1a47aa02e275fdc2154
+      internalID: -361894824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_160
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 459
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb6e8aa25911fa41815aa7e43381e68
+      internalID: 551415818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_161
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 466
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718874785b8b26a46b27319acc2eb0d2
+      internalID: -1864501316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_162
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 389
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864558cab71caae4b86c28bc4fe904af
+      internalID: 1902611480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_163
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 341
+        width: 72
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8708d397ab58b45a26fc2c514801fb
+      internalID: 636906037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_164
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 455
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cc0ab43081c974c84be40d2f242015
+      internalID: -1408645055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_165
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 382
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf37b5c911b57a645ac9b67beecaef5b
+      internalID: 860630914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_166
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 378
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d6ac63d626374db040ff46c5d9915
+      internalID: -447112686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_167
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 382
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce40fd573cb3664385716b7ce297ea1
+      internalID: -1229598935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_168
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 354
+        width: 57
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26077abb364992b4ea6ce6a64846919b
+      internalID: 433357547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_169
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 375
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e133a71cbf1044b400a1c771214f3
+      internalID: -1715169220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_170
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 445
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491870e7938c00743b8cf85f748d461b
+      internalID: -1295580443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_171
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 450
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086a9d801d3d28f45a79f6e05fa88cb2
+      internalID: -818302163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_172
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 431
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5b0762d2ed804d829fe1e22cc2a65
+      internalID: 2094232532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_173
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 347
+        width: 82
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dd600dc89c9414890a7be35467c7aa
+      internalID: -1831683071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_174
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 361
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2871bb2f950d104a99464ffdb925787
+      internalID: 950669700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_175
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 438
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a8de68ae4b5f42ae2d01f1e3d0c90
+      internalID: -1001467445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_176
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 350
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31f0265b20613f498d09c7ab8407d62
+      internalID: 2103471202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_177
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 348
+        width: 92
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829b3e249a6fb8245a0b015347349f9d
+      internalID: 1892613404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_178
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 347
+        width: 75
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f3e9b434b59274991e2e12821e6ad7
+      internalID: 1339519844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_179
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 354
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bdeeb4b1a1acd47bbf766ba4d6f47b
+      internalID: 268057278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_180
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 354
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54eb43616597494ea7cb9ee8b3151f8
+      internalID: -725511060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_181
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 354
+        width: 98
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c8dec92a44aa240ac22a7602c9d1ae
+      internalID: -627364234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_182
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 375
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fa9501c96c92f4d8f91d595bd96c14
+      internalID: 1820038825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_183
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 375
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbc48626093e0b49b31de44e8ef6a74
+      internalID: -700528226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_184
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 354
+        width: 89
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5387aada0360904195e03f67ed359fe
+      internalID: 1315855886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_185
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 361
+        width: 92
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27387055d99adb4592bb757ef0a6f4a
+      internalID: -1100547835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_186
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 354
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eb639c018ce7a44a5fd1dc50bd87b9
+      internalID: 1853564234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_187
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 352
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f9ed29d4399644fa0753a6f8dfc9fc
+      internalID: -671750325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_188
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 424
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca00b41e4c6d7614f993b643d2325d0f
+      internalID: -419657866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_189
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 344
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f927e4e7027764b8e815e66c56073e
+      internalID: -787079169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b699894a9cc0164fae42e71ce76fcc1
+      internalID: -634919104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_191
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 373
+        width: 5
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d33cef13888474e84ff27c029f5f8a
+      internalID: -1588659629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_192
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 389
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db72a3fc5af61444da1958afe59e7ef8
+      internalID: 481498995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_193
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 303
+        width: 60
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6e75613323c87418f0d5902c5cae84
+      internalID: -1539204797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_194
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 396
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6c6fe6dfdeeb54bbfbbc2418b5b52c
+      internalID: -570834049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_195
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 389
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcff2543c88287e45bdf591630187f7b
+      internalID: 1482546173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_196
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 372
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d3e178f3c619d4fb6220314f26b641
+      internalID: -846867772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_197
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 291
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69988f7bfa9163a4f9b4da7827049742
+      internalID: -1029522552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_198
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 285
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410c59bf04c5a77429240a1c410d3354
+      internalID: 239460026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_199
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 284
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9067f000869c874b9310f2edcfb2797
+      internalID: -336602063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_200
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 305
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f2062f3c9cbc841929e0f1ae06e29c
+      internalID: -587529464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_201
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 305
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d73cbe3c7a5cc49bfff9a19677ad84
+      internalID: 244002863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_202
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 375
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bece00dfb637d4fbb2f31fac052241
+      internalID: 1382696862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_203
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 354
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5336d40138066145b5115930b9a6a75
+      internalID: 80705772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_204
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 354
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37065dd2456c58948955a1de52e4669b
+      internalID: -742255466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_205
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 348
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d766b6177979b54c9ae9bf27f1a328f
+      internalID: -80946391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_206
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 243
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e64341afe153b544bba7869aafd4310
+      internalID: 355868585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_207
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 334
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b769db9ac0dce3b4d8df63d5b6e97153
+      internalID: 1453454649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_208
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 239
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00100eff0e44f04e8d9bed66150eec8
+      internalID: -1073428704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_209
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 243
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfef85683a512e244b138ead0b463f65
+      internalID: -1975515906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_210
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 341
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0d89dc96e44e4468a2ab90dfed740c
+      internalID: -159391715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_211
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 291
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66adfff12c60f5144b321a5dfc5dca58
+      internalID: 1392738919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_212
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 334
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22573d7e88f31bd4f87337e8fbf96f91
+      internalID: -961834882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_213
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 341
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53da2701e6f79b34893f9297cab97bba
+      internalID: 1504863587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_214
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 341
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025203b7d64ad9142a8edd27fc466575
+      internalID: 1814597504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_215
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 243
+        width: 126
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c816383a5d26e19469db8f982cc76aec
+      internalID: 1314982021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_216
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 243
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa0c336e4652c94f98d1cdb48148727
+      internalID: -789584946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_217
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 240
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819a18bd07945ca489d293bdc2dd757d
+      internalID: 399926364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_218
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 243
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc18b494831a054c8c610f854e9e12b
+      internalID: 1665851216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_219
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 243
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c219745524aef50439ae79683f9957cd
+      internalID: -1363604990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_220
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 243
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4294d1b54e76d4441960904672d30d86
+      internalID: -435842358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_221
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 243
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbcb015db58c834daf884228098aa6b
+      internalID: 122045946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_222
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 239
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416cb407745867345b95ec89e42621f2
+      internalID: -795156636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_223
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 243
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f42806dc8e9be449de8042e243d273
+      internalID: -1155990137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_224
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 246
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a075b39eb3b76d04bb4e941739e18ee2
+      internalID: 2023656021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_225
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 252
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bc4e08dc5cafe428b64b92da82c9b7
+      internalID: -1881933042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_226
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 313
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01093da672130d8419737b5abdc13adc
+      internalID: 2110757129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_227
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 313
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6ad37c8ac9d424b99bfde5780b99eb
+      internalID: 651890567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_228
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 222
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01fa70aec17f354b98109d91ea18ea9
+      internalID: -1999969087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_229
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 220
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3123421c578c5a34ca67267c84634e5f
+      internalID: -1703732106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_230
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 306
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77fb643b0725a94ea18f750c859a3d7
+      internalID: 1792997699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_231
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 299
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7239fed5fd6d4c64b96287e25f7e0573
+      internalID: -954187274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_232
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 299
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a5f052e3773274ab8d7fc045695bf2
+      internalID: -750229362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_233
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 292
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4232a78757f1c4fb77078132030c48
+      internalID: 1692788582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_234
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 285
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4c9f665f5f1214d85114de2f883ca2
+      internalID: 1658973822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_235
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 280
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d6b928c95e29a4dbcbfa1cefa79efe
+      internalID: 99447389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_236
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 271
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a9a85bb2cd03488beceac16a5586e
+      internalID: 1538089684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_237
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 83
+        width: 212
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9114055481f65b64799266233b1f2f19
+      internalID: 291948517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_238
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 271
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d707f02c406ba7748b5144d515350ce9
+      internalID: -2011052324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_239
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 269
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713d93ec81e2e1c40885c5fcd37613ce
+      internalID: 792901526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_240
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 250
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28f95bfc0c615546a414bbcd456f0f4
+      internalID: 1924666749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_241
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 257
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172d67db5c122e447b4e4350b3ffaf5d
+      internalID: -1639748648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_242
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 250
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b4721fdf2c0ab43a35d4871cc6d174
+      internalID: -1162276447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_243
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 147
+        width: 167
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cc3b20699711b4d92465cd0f445462
+      internalID: -1412272881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_244
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 239
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506a13f7bec822a43b1a0377f6e91b93
+      internalID: -544545358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_245
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 236
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d3eed5c9896f54581f764ef6d5a3eb
+      internalID: 1986575993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_246
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 56
+        width: 196
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f16c6ee5e56234390b5bc016b002d1
+      internalID: 1382612655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 188
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50942083769143e4e9886dea692101b0
+      internalID: 1165706406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_248
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 14
+        width: 504
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be4c419d9e6e854187be341536eb0dc
+      internalID: 1658020641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_249
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 132
+        width: 126
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186e8b2d3a3749042bc1d9a5bed9f01a
+      internalID: 2068437247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_250
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 132
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21491a1f397f3e48b836b07d17cc10d
+      internalID: 676192464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_251
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 137
+        width: 120
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983d023921d589e41949982c3fe5b06e
+      internalID: -1255913263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_252
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 156
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c4a71c5a2fc2b4892eeaf0a247fd05
+      internalID: 240781688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_253
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 209
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07725f51d0142c845b2741aa01d22b05
+      internalID: 164683692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_254
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 155
+        width: 124
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5df2a9947c95074cb230fdc28d5cac2
+      internalID: -564795460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_255
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 95
+        width: 188
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9165fbce7733346499a4db4f542cc0a6
+      internalID: 597243570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_256
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 215
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad2ee9bc886fc343895c31661bcf97b
+      internalID: 1407484865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_257
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 32
+        width: 113
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd6b045f03a630409efde8603bde275
+      internalID: -555214078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_258
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 120
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056e72f6bf3a74b43b039104264e92f3
+      internalID: -1110206898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_259
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 120
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d08c4e0a64a3748b3b3d8d3bf7e2d3
+      internalID: 47816566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_260
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e6d12e7d575be4fb9dc54b57bf155e
+      internalID: -1847112842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_261
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 174
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12abb80908311f3498bd3ba9dac09cd5
+      internalID: 46467693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_262
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 152
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b16cbabf1c1584c80101c1bf9124c0
+      internalID: 626223800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_263
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 155
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943487d916ea15b45ae91d432c1c14cc
+      internalID: -2064014545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_264
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bef3f76daf73e48a6762b01734a428
+      internalID: -741665426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_265
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 139
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f571ea062cc05f540a4a49982ec2ed0f
+      internalID: -673244357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_266
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf9ac4eaac619c40a140bd24fd04514
+      internalID: -2085025572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_267
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 88
+        width: 168
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece26056ba6d8a644935397a742d9f4f
+      internalID: -1611724402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_268
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 125
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fbaa227de4802479ca24184420a4bd
+      internalID: 1863723782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_269
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 23
+        width: 131
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2095bb336214e040b0ef54dace0aa58
+      internalID: 227938759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_270
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 48
+        width: 94
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d3f77260da9ab42a6117a0af488c34
+      internalID: 353293575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_271
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 19
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f7c173f910fa0408fb846c3d3c817a
+      internalID: 1362225660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_272
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 100
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aba087223c47e645acff9560098ac38
+      internalID: 1447655787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_273
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 97
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8da47e6c3e07e488dd15603dbdb5be
+      internalID: 248010683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_274
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 27
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5a805be8967d541860f50b2975d4dd
+      internalID: 1835781094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_275
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 27
+        width: 122
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c2dc3381f5da24d8b6865bd6ff73f6
+      internalID: -1299375480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_276
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 75
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6c72eccbcc5b84f957bea63b4c649c
+      internalID: -24758236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_277
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 76
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffeae665c832eb459a2860edcb0caf6
+      internalID: -1862926223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_278
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 11
+        width: 390
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f115ca11adf56464eb9904d8ace6cc10
+      internalID: -2026338363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_279
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 83
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af1b81b2cbb5e04d89ccad4006018d1
+      internalID: -1406870517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_280
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 83
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503910555b9030e4a8e75ee46da08e1a
+      internalID: -341221312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_281
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 68
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179dbdb2d2cf95044bc50f8936e41c6f
+      internalID: -689288841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_282
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482b950e7f700248a54cd0b0fde1e90
+      internalID: -1398528947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_283
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 20
+        width: 141
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0559d23d493e89d479db4ce5197440dd
+      internalID: 887181014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_284
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd2b9f53df55024387a847ccc51c388
+      internalID: 1829673065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_285
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c7f2af2b96130459fe3be4f6684cd2
+      internalID: 1286156629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_286
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 7
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd92778499c193740946abd2a6fb9271
+      internalID: -278347193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_287
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 42
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6473b64cc927ff5478bbd535126d383a
+      internalID: 700838440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_288
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 21
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5250e240c6187934da719deada27a340
+      internalID: -644894183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_289
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b623a93cf4c4c64b9f27e810d81c4f8
+      internalID: 839747392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_290
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1b68859e45aaf40b9b945e548b822e
+      internalID: 361126217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_291
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b7c2d990948c249910ef7213404d1c
+      internalID: -323105628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_292
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 21
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855d4eb7f81826f4390e57b296827635
+      internalID: 560185041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_293
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780209a693313dd40846860d0b3cc411
+      internalID: -1023840894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_294
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd30720f495ce4fa7bbc0ea626c1ee
+      internalID: -487212508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_295
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d373a1304cdc65469a7d36ec6180b13
+      internalID: -874350327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_296
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 21
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9a5d81bd0af6f478a337bae1717e5b
+      internalID: -1485415069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_297
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d253d613e6ec94a9edb8c2d2c4de23
+      internalID: -549000846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_298
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f86fa9377e166a419552c7e57a07bf0
+      internalID: -879688449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_299
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e368c7bffd67d574a9e6bc98df5d371a
+      internalID: 1210874318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_300
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 14
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ef87bf530453e43a5c97eeeec48c67
+      internalID: 1902780511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_301
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2caa43967058ee4bab152e7791d61ca
+      internalID: 1366962625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_302
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2d4e0ffe5552c4abcf900fc3a466f3
+      internalID: 2093277359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_303
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2250c5005bb1e664d90f1c7201c77bb6
+      internalID: 57699670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_304
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42efe0072ab961429a8101d27c4f897
+      internalID: -1678558880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_305
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 7
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40faa001252a2f74da2ca69b0976d3ba
+      internalID: -358266441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumina_Grove_UI_Atlas_Clean 2_306
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1339
+        width: 325
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f794d8400dac8414792dfc6dc55bf719
+      internalID: 1934254284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53d0522a1c0aac046a2a84311a663992
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lumina_Grove_UI_Atlas_Clean 2_0: 1237377875
+      Lumina_Grove_UI_Atlas_Clean 2_1: 921936072
+      Lumina_Grove_UI_Atlas_Clean 2_10: 2090959648
+      Lumina_Grove_UI_Atlas_Clean 2_100: -649678192
+      Lumina_Grove_UI_Atlas_Clean 2_101: -2096121080
+      Lumina_Grove_UI_Atlas_Clean 2_102: 2077748846
+      Lumina_Grove_UI_Atlas_Clean 2_103: 1602437521
+      Lumina_Grove_UI_Atlas_Clean 2_104: 1363694720
+      Lumina_Grove_UI_Atlas_Clean 2_105: -137166596
+      Lumina_Grove_UI_Atlas_Clean 2_106: -772014567
+      Lumina_Grove_UI_Atlas_Clean 2_107: -506393137
+      Lumina_Grove_UI_Atlas_Clean 2_108: 1165046036
+      Lumina_Grove_UI_Atlas_Clean 2_109: 2024731701
+      Lumina_Grove_UI_Atlas_Clean 2_11: 665584487
+      Lumina_Grove_UI_Atlas_Clean 2_110: 827026967
+      Lumina_Grove_UI_Atlas_Clean 2_111: 987169244
+      Lumina_Grove_UI_Atlas_Clean 2_112: 76804304
+      Lumina_Grove_UI_Atlas_Clean 2_113: 317192769
+      Lumina_Grove_UI_Atlas_Clean 2_114: -1815083223
+      Lumina_Grove_UI_Atlas_Clean 2_115: 1063442305
+      Lumina_Grove_UI_Atlas_Clean 2_116: -993652505
+      Lumina_Grove_UI_Atlas_Clean 2_117: -1808097841
+      Lumina_Grove_UI_Atlas_Clean 2_118: 483017892
+      Lumina_Grove_UI_Atlas_Clean 2_119: 1309186284
+      Lumina_Grove_UI_Atlas_Clean 2_12: 1736124249
+      Lumina_Grove_UI_Atlas_Clean 2_120: -2093658283
+      Lumina_Grove_UI_Atlas_Clean 2_121: 1900438424
+      Lumina_Grove_UI_Atlas_Clean 2_122: 1409228602
+      Lumina_Grove_UI_Atlas_Clean 2_123: 1204702882
+      Lumina_Grove_UI_Atlas_Clean 2_124: -309932085
+      Lumina_Grove_UI_Atlas_Clean 2_125: 789461776
+      Lumina_Grove_UI_Atlas_Clean 2_126: -114691170
+      Lumina_Grove_UI_Atlas_Clean 2_127: 2127995948
+      Lumina_Grove_UI_Atlas_Clean 2_128: -1741634515
+      Lumina_Grove_UI_Atlas_Clean 2_129: -2120452935
+      Lumina_Grove_UI_Atlas_Clean 2_13: -1718819378
+      Lumina_Grove_UI_Atlas_Clean 2_130: 562129339
+      Lumina_Grove_UI_Atlas_Clean 2_131: -1808013236
+      Lumina_Grove_UI_Atlas_Clean 2_132: 869107091
+      Lumina_Grove_UI_Atlas_Clean 2_133: -1984702056
+      Lumina_Grove_UI_Atlas_Clean 2_134: 1519058567
+      Lumina_Grove_UI_Atlas_Clean 2_135: 715867608
+      Lumina_Grove_UI_Atlas_Clean 2_136: 886583736
+      Lumina_Grove_UI_Atlas_Clean 2_137: -1491726581
+      Lumina_Grove_UI_Atlas_Clean 2_138: -1965062559
+      Lumina_Grove_UI_Atlas_Clean 2_139: -1404443319
+      Lumina_Grove_UI_Atlas_Clean 2_14: 157013873
+      Lumina_Grove_UI_Atlas_Clean 2_140: 335206692
+      Lumina_Grove_UI_Atlas_Clean 2_141: -1369791529
+      Lumina_Grove_UI_Atlas_Clean 2_142: 1588483638
+      Lumina_Grove_UI_Atlas_Clean 2_143: 175577789
+      Lumina_Grove_UI_Atlas_Clean 2_144: 1891403246
+      Lumina_Grove_UI_Atlas_Clean 2_145: 588334584
+      Lumina_Grove_UI_Atlas_Clean 2_146: -1029032818
+      Lumina_Grove_UI_Atlas_Clean 2_147: 1261147390
+      Lumina_Grove_UI_Atlas_Clean 2_148: -867938287
+      Lumina_Grove_UI_Atlas_Clean 2_149: 1015752020
+      Lumina_Grove_UI_Atlas_Clean 2_15: 899552391
+      Lumina_Grove_UI_Atlas_Clean 2_150: -282184459
+      Lumina_Grove_UI_Atlas_Clean 2_151: -2129848439
+      Lumina_Grove_UI_Atlas_Clean 2_152: 542076281
+      Lumina_Grove_UI_Atlas_Clean 2_153: -513071840
+      Lumina_Grove_UI_Atlas_Clean 2_154: -919285297
+      Lumina_Grove_UI_Atlas_Clean 2_155: 1321208587
+      Lumina_Grove_UI_Atlas_Clean 2_156: -1688897342
+      Lumina_Grove_UI_Atlas_Clean 2_157: 1929717680
+      Lumina_Grove_UI_Atlas_Clean 2_158: 1207326958
+      Lumina_Grove_UI_Atlas_Clean 2_159: -361894824
+      Lumina_Grove_UI_Atlas_Clean 2_16: -242156998
+      Lumina_Grove_UI_Atlas_Clean 2_160: 551415818
+      Lumina_Grove_UI_Atlas_Clean 2_161: -1864501316
+      Lumina_Grove_UI_Atlas_Clean 2_162: 1902611480
+      Lumina_Grove_UI_Atlas_Clean 2_163: 636906037
+      Lumina_Grove_UI_Atlas_Clean 2_164: -1408645055
+      Lumina_Grove_UI_Atlas_Clean 2_165: 860630914
+      Lumina_Grove_UI_Atlas_Clean 2_166: -447112686
+      Lumina_Grove_UI_Atlas_Clean 2_167: -1229598935
+      Lumina_Grove_UI_Atlas_Clean 2_168: 433357547
+      Lumina_Grove_UI_Atlas_Clean 2_169: -1715169220
+      Lumina_Grove_UI_Atlas_Clean 2_17: 541478365
+      Lumina_Grove_UI_Atlas_Clean 2_170: -1295580443
+      Lumina_Grove_UI_Atlas_Clean 2_171: -818302163
+      Lumina_Grove_UI_Atlas_Clean 2_172: 2094232532
+      Lumina_Grove_UI_Atlas_Clean 2_173: -1831683071
+      Lumina_Grove_UI_Atlas_Clean 2_174: 950669700
+      Lumina_Grove_UI_Atlas_Clean 2_175: -1001467445
+      Lumina_Grove_UI_Atlas_Clean 2_176: 2103471202
+      Lumina_Grove_UI_Atlas_Clean 2_177: 1892613404
+      Lumina_Grove_UI_Atlas_Clean 2_178: 1339519844
+      Lumina_Grove_UI_Atlas_Clean 2_179: 268057278
+      Lumina_Grove_UI_Atlas_Clean 2_18: -2093445289
+      Lumina_Grove_UI_Atlas_Clean 2_180: -725511060
+      Lumina_Grove_UI_Atlas_Clean 2_181: -627364234
+      Lumina_Grove_UI_Atlas_Clean 2_182: 1820038825
+      Lumina_Grove_UI_Atlas_Clean 2_183: -700528226
+      Lumina_Grove_UI_Atlas_Clean 2_184: 1315855886
+      Lumina_Grove_UI_Atlas_Clean 2_185: -1100547835
+      Lumina_Grove_UI_Atlas_Clean 2_186: 1853564234
+      Lumina_Grove_UI_Atlas_Clean 2_187: -671750325
+      Lumina_Grove_UI_Atlas_Clean 2_188: -419657866
+      Lumina_Grove_UI_Atlas_Clean 2_189: -787079169
+      Lumina_Grove_UI_Atlas_Clean 2_19: 102475794
+      Lumina_Grove_UI_Atlas_Clean 2_190: -634919104
+      Lumina_Grove_UI_Atlas_Clean 2_191: -1588659629
+      Lumina_Grove_UI_Atlas_Clean 2_192: 481498995
+      Lumina_Grove_UI_Atlas_Clean 2_193: -1539204797
+      Lumina_Grove_UI_Atlas_Clean 2_194: -570834049
+      Lumina_Grove_UI_Atlas_Clean 2_195: 1482546173
+      Lumina_Grove_UI_Atlas_Clean 2_196: -846867772
+      Lumina_Grove_UI_Atlas_Clean 2_197: -1029522552
+      Lumina_Grove_UI_Atlas_Clean 2_198: 239460026
+      Lumina_Grove_UI_Atlas_Clean 2_199: -336602063
+      Lumina_Grove_UI_Atlas_Clean 2_2: 241166257
+      Lumina_Grove_UI_Atlas_Clean 2_20: -1093666724
+      Lumina_Grove_UI_Atlas_Clean 2_200: -587529464
+      Lumina_Grove_UI_Atlas_Clean 2_201: 244002863
+      Lumina_Grove_UI_Atlas_Clean 2_202: 1382696862
+      Lumina_Grove_UI_Atlas_Clean 2_203: 80705772
+      Lumina_Grove_UI_Atlas_Clean 2_204: -742255466
+      Lumina_Grove_UI_Atlas_Clean 2_205: -80946391
+      Lumina_Grove_UI_Atlas_Clean 2_206: 355868585
+      Lumina_Grove_UI_Atlas_Clean 2_207: 1453454649
+      Lumina_Grove_UI_Atlas_Clean 2_208: -1073428704
+      Lumina_Grove_UI_Atlas_Clean 2_209: -1975515906
+      Lumina_Grove_UI_Atlas_Clean 2_21: 1145289725
+      Lumina_Grove_UI_Atlas_Clean 2_210: -159391715
+      Lumina_Grove_UI_Atlas_Clean 2_211: 1392738919
+      Lumina_Grove_UI_Atlas_Clean 2_212: -961834882
+      Lumina_Grove_UI_Atlas_Clean 2_213: 1504863587
+      Lumina_Grove_UI_Atlas_Clean 2_214: 1814597504
+      Lumina_Grove_UI_Atlas_Clean 2_215: 1314982021
+      Lumina_Grove_UI_Atlas_Clean 2_216: -789584946
+      Lumina_Grove_UI_Atlas_Clean 2_217: 399926364
+      Lumina_Grove_UI_Atlas_Clean 2_218: 1665851216
+      Lumina_Grove_UI_Atlas_Clean 2_219: -1363604990
+      Lumina_Grove_UI_Atlas_Clean 2_22: 1006826841
+      Lumina_Grove_UI_Atlas_Clean 2_220: -435842358
+      Lumina_Grove_UI_Atlas_Clean 2_221: 122045946
+      Lumina_Grove_UI_Atlas_Clean 2_222: -795156636
+      Lumina_Grove_UI_Atlas_Clean 2_223: -1155990137
+      Lumina_Grove_UI_Atlas_Clean 2_224: 2023656021
+      Lumina_Grove_UI_Atlas_Clean 2_225: -1881933042
+      Lumina_Grove_UI_Atlas_Clean 2_226: 2110757129
+      Lumina_Grove_UI_Atlas_Clean 2_227: 651890567
+      Lumina_Grove_UI_Atlas_Clean 2_228: -1999969087
+      Lumina_Grove_UI_Atlas_Clean 2_229: -1703732106
+      Lumina_Grove_UI_Atlas_Clean 2_23: 392437657
+      Lumina_Grove_UI_Atlas_Clean 2_230: 1792997699
+      Lumina_Grove_UI_Atlas_Clean 2_231: -954187274
+      Lumina_Grove_UI_Atlas_Clean 2_232: -750229362
+      Lumina_Grove_UI_Atlas_Clean 2_233: 1692788582
+      Lumina_Grove_UI_Atlas_Clean 2_234: 1658973822
+      Lumina_Grove_UI_Atlas_Clean 2_235: 99447389
+      Lumina_Grove_UI_Atlas_Clean 2_236: 1538089684
+      Lumina_Grove_UI_Atlas_Clean 2_237: 291948517
+      Lumina_Grove_UI_Atlas_Clean 2_238: -2011052324
+      Lumina_Grove_UI_Atlas_Clean 2_239: 792901526
+      Lumina_Grove_UI_Atlas_Clean 2_24: 772164790
+      Lumina_Grove_UI_Atlas_Clean 2_240: 1924666749
+      Lumina_Grove_UI_Atlas_Clean 2_241: -1639748648
+      Lumina_Grove_UI_Atlas_Clean 2_242: -1162276447
+      Lumina_Grove_UI_Atlas_Clean 2_243: -1412272881
+      Lumina_Grove_UI_Atlas_Clean 2_244: -544545358
+      Lumina_Grove_UI_Atlas_Clean 2_245: 1986575993
+      Lumina_Grove_UI_Atlas_Clean 2_246: 1382612655
+      Lumina_Grove_UI_Atlas_Clean 2_247: 1165706406
+      Lumina_Grove_UI_Atlas_Clean 2_248: 1658020641
+      Lumina_Grove_UI_Atlas_Clean 2_249: 2068437247
+      Lumina_Grove_UI_Atlas_Clean 2_25: -385665318
+      Lumina_Grove_UI_Atlas_Clean 2_250: 676192464
+      Lumina_Grove_UI_Atlas_Clean 2_251: -1255913263
+      Lumina_Grove_UI_Atlas_Clean 2_252: 240781688
+      Lumina_Grove_UI_Atlas_Clean 2_253: 164683692
+      Lumina_Grove_UI_Atlas_Clean 2_254: -564795460
+      Lumina_Grove_UI_Atlas_Clean 2_255: 597243570
+      Lumina_Grove_UI_Atlas_Clean 2_256: 1407484865
+      Lumina_Grove_UI_Atlas_Clean 2_257: -555214078
+      Lumina_Grove_UI_Atlas_Clean 2_258: -1110206898
+      Lumina_Grove_UI_Atlas_Clean 2_259: 47816566
+      Lumina_Grove_UI_Atlas_Clean 2_26: 142286225
+      Lumina_Grove_UI_Atlas_Clean 2_260: -1847112842
+      Lumina_Grove_UI_Atlas_Clean 2_261: 46467693
+      Lumina_Grove_UI_Atlas_Clean 2_262: 626223800
+      Lumina_Grove_UI_Atlas_Clean 2_263: -2064014545
+      Lumina_Grove_UI_Atlas_Clean 2_264: -741665426
+      Lumina_Grove_UI_Atlas_Clean 2_265: -673244357
+      Lumina_Grove_UI_Atlas_Clean 2_266: -2085025572
+      Lumina_Grove_UI_Atlas_Clean 2_267: -1611724402
+      Lumina_Grove_UI_Atlas_Clean 2_268: 1863723782
+      Lumina_Grove_UI_Atlas_Clean 2_269: 227938759
+      Lumina_Grove_UI_Atlas_Clean 2_27: -1333560665
+      Lumina_Grove_UI_Atlas_Clean 2_270: 353293575
+      Lumina_Grove_UI_Atlas_Clean 2_271: 1362225660
+      Lumina_Grove_UI_Atlas_Clean 2_272: 1447655787
+      Lumina_Grove_UI_Atlas_Clean 2_273: 248010683
+      Lumina_Grove_UI_Atlas_Clean 2_274: 1835781094
+      Lumina_Grove_UI_Atlas_Clean 2_275: -1299375480
+      Lumina_Grove_UI_Atlas_Clean 2_276: -24758236
+      Lumina_Grove_UI_Atlas_Clean 2_277: -1862926223
+      Lumina_Grove_UI_Atlas_Clean 2_278: -2026338363
+      Lumina_Grove_UI_Atlas_Clean 2_279: -1406870517
+      Lumina_Grove_UI_Atlas_Clean 2_28: 210849683
+      Lumina_Grove_UI_Atlas_Clean 2_280: -341221312
+      Lumina_Grove_UI_Atlas_Clean 2_281: -689288841
+      Lumina_Grove_UI_Atlas_Clean 2_282: -1398528947
+      Lumina_Grove_UI_Atlas_Clean 2_283: 887181014
+      Lumina_Grove_UI_Atlas_Clean 2_284: 1829673065
+      Lumina_Grove_UI_Atlas_Clean 2_285: 1286156629
+      Lumina_Grove_UI_Atlas_Clean 2_286: -278347193
+      Lumina_Grove_UI_Atlas_Clean 2_287: 700838440
+      Lumina_Grove_UI_Atlas_Clean 2_288: -644894183
+      Lumina_Grove_UI_Atlas_Clean 2_289: 839747392
+      Lumina_Grove_UI_Atlas_Clean 2_29: 469423059
+      Lumina_Grove_UI_Atlas_Clean 2_290: 361126217
+      Lumina_Grove_UI_Atlas_Clean 2_291: -323105628
+      Lumina_Grove_UI_Atlas_Clean 2_292: 560185041
+      Lumina_Grove_UI_Atlas_Clean 2_293: -1023840894
+      Lumina_Grove_UI_Atlas_Clean 2_294: -487212508
+      Lumina_Grove_UI_Atlas_Clean 2_295: -874350327
+      Lumina_Grove_UI_Atlas_Clean 2_296: -1485415069
+      Lumina_Grove_UI_Atlas_Clean 2_297: -549000846
+      Lumina_Grove_UI_Atlas_Clean 2_298: -879688449
+      Lumina_Grove_UI_Atlas_Clean 2_299: 1210874318
+      Lumina_Grove_UI_Atlas_Clean 2_3: 974104739
+      Lumina_Grove_UI_Atlas_Clean 2_30: 806576313
+      Lumina_Grove_UI_Atlas_Clean 2_300: 1902780511
+      Lumina_Grove_UI_Atlas_Clean 2_301: 1366962625
+      Lumina_Grove_UI_Atlas_Clean 2_302: 2093277359
+      Lumina_Grove_UI_Atlas_Clean 2_303: 57699670
+      Lumina_Grove_UI_Atlas_Clean 2_304: -1678558880
+      Lumina_Grove_UI_Atlas_Clean 2_305: -358266441
+      Lumina_Grove_UI_Atlas_Clean 2_306: 1934254284
+      Lumina_Grove_UI_Atlas_Clean 2_31: 155222709
+      Lumina_Grove_UI_Atlas_Clean 2_32: -1755443727
+      Lumina_Grove_UI_Atlas_Clean 2_33: -1851633966
+      Lumina_Grove_UI_Atlas_Clean 2_34: -868371954
+      Lumina_Grove_UI_Atlas_Clean 2_35: 206413419
+      Lumina_Grove_UI_Atlas_Clean 2_36: 1931785145
+      Lumina_Grove_UI_Atlas_Clean 2_37: 904459653
+      Lumina_Grove_UI_Atlas_Clean 2_38: -1980453974
+      Lumina_Grove_UI_Atlas_Clean 2_39: -1457742585
+      Lumina_Grove_UI_Atlas_Clean 2_4: 177524772
+      Lumina_Grove_UI_Atlas_Clean 2_40: 690990497
+      Lumina_Grove_UI_Atlas_Clean 2_41: 82092733
+      Lumina_Grove_UI_Atlas_Clean 2_42: 1698585374
+      Lumina_Grove_UI_Atlas_Clean 2_43: 1967159139
+      Lumina_Grove_UI_Atlas_Clean 2_44: 1297649897
+      Lumina_Grove_UI_Atlas_Clean 2_45: 612858482
+      Lumina_Grove_UI_Atlas_Clean 2_46: -1234187485
+      Lumina_Grove_UI_Atlas_Clean 2_47: -226249632
+      Lumina_Grove_UI_Atlas_Clean 2_48: 1581454022
+      Lumina_Grove_UI_Atlas_Clean 2_49: 35913196
+      Lumina_Grove_UI_Atlas_Clean 2_5: 1882503589
+      Lumina_Grove_UI_Atlas_Clean 2_50: -1403442498
+      Lumina_Grove_UI_Atlas_Clean 2_51: -1675141791
+      Lumina_Grove_UI_Atlas_Clean 2_52: 1236997562
+      Lumina_Grove_UI_Atlas_Clean 2_53: 515054385
+      Lumina_Grove_UI_Atlas_Clean 2_54: -1269051089
+      Lumina_Grove_UI_Atlas_Clean 2_55: -879142830
+      Lumina_Grove_UI_Atlas_Clean 2_56: -350738650
+      Lumina_Grove_UI_Atlas_Clean 2_57: -985683384
+      Lumina_Grove_UI_Atlas_Clean 2_58: 643993016
+      Lumina_Grove_UI_Atlas_Clean 2_59: -2128731788
+      Lumina_Grove_UI_Atlas_Clean 2_6: 876506729
+      Lumina_Grove_UI_Atlas_Clean 2_60: 469103559
+      Lumina_Grove_UI_Atlas_Clean 2_61: 849810854
+      Lumina_Grove_UI_Atlas_Clean 2_62: 861313839
+      Lumina_Grove_UI_Atlas_Clean 2_63: 1823253043
+      Lumina_Grove_UI_Atlas_Clean 2_64: 211231393
+      Lumina_Grove_UI_Atlas_Clean 2_65: -149215283
+      Lumina_Grove_UI_Atlas_Clean 2_66: -1339049734
+      Lumina_Grove_UI_Atlas_Clean 2_67: -2107329689
+      Lumina_Grove_UI_Atlas_Clean 2_68: 831582453
+      Lumina_Grove_UI_Atlas_Clean 2_69: 211587953
+      Lumina_Grove_UI_Atlas_Clean 2_7: -248568356
+      Lumina_Grove_UI_Atlas_Clean 2_70: -1048122689
+      Lumina_Grove_UI_Atlas_Clean 2_71: 1731906183
+      Lumina_Grove_UI_Atlas_Clean 2_72: 1187393497
+      Lumina_Grove_UI_Atlas_Clean 2_73: -1278804858
+      Lumina_Grove_UI_Atlas_Clean 2_74: -857238129
+      Lumina_Grove_UI_Atlas_Clean 2_75: 1722660524
+      Lumina_Grove_UI_Atlas_Clean 2_76: -1765829145
+      Lumina_Grove_UI_Atlas_Clean 2_77: -955615478
+      Lumina_Grove_UI_Atlas_Clean 2_78: -390213806
+      Lumina_Grove_UI_Atlas_Clean 2_79: -925259518
+      Lumina_Grove_UI_Atlas_Clean 2_8: -1635575947
+      Lumina_Grove_UI_Atlas_Clean 2_80: 44493786
+      Lumina_Grove_UI_Atlas_Clean 2_81: 1562843082
+      Lumina_Grove_UI_Atlas_Clean 2_82: -872159698
+      Lumina_Grove_UI_Atlas_Clean 2_83: -135374355
+      Lumina_Grove_UI_Atlas_Clean 2_84: 676176053
+      Lumina_Grove_UI_Atlas_Clean 2_85: 1312148677
+      Lumina_Grove_UI_Atlas_Clean 2_86: -693300963
+      Lumina_Grove_UI_Atlas_Clean 2_87: -1405646002
+      Lumina_Grove_UI_Atlas_Clean 2_88: -291383238
+      Lumina_Grove_UI_Atlas_Clean 2_89: 1711945808
+      Lumina_Grove_UI_Atlas_Clean 2_9: 765216561
+      Lumina_Grove_UI_Atlas_Clean 2_90: 1652549921
+      Lumina_Grove_UI_Atlas_Clean 2_91: -1623522666
+      Lumina_Grove_UI_Atlas_Clean 2_92: -1392900624
+      Lumina_Grove_UI_Atlas_Clean 2_93: 1440013359
+      Lumina_Grove_UI_Atlas_Clean 2_94: -1882106872
+      Lumina_Grove_UI_Atlas_Clean 2_95: -306948270
+      Lumina_Grove_UI_Atlas_Clean 2_96: -2120140317
+      Lumina_Grove_UI_Atlas_Clean 2_97: 487281094
+      Lumina_Grove_UI_Atlas_Clean 2_98: 1637172728
+      Lumina_Grove_UI_Atlas_Clean 2_99: 45077664
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

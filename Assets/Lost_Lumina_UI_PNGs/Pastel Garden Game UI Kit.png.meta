@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: c334bd578d1209f44b49104deac50d87
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 811
+        width: 409
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62539211e73e2a4fa7f0569599fe9cb
+      internalID: -1130286364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 803
+        width: 197
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abadaa8cd3caf84e9a4be05688fa868
+      internalID: 913824246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 804
+        width: 116
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a00fbd22837d24180805de4d287023
+      internalID: 1652831637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_3
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 823
+        width: 160
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da21f6340653a8e45b7c5223a7ad8802
+      internalID: -994032422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_4
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 813
+        width: 156
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60ac023e8ed57645a3d94dd609e0a61
+      internalID: -698618109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_5
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 823
+        width: 133
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938eaa2bfa3ba9d4ea369950dc78f0a6
+      internalID: -1204706511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_6
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 824
+        width: 131
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199190056d95db1459e1b5a545d0475f
+      internalID: 1392728198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 643
+        width: 219
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae41e71ba34f259438e8e6f152e3184b
+      internalID: 883010202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_8
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 650
+        width: 232
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dfd53083627e04187404ff4001b24d
+      internalID: -321831060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 644
+        width: 183
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea4dc750ed02e84298c26f0e5fd1217
+      internalID: -1692221577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 640
+        width: 170
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9a8414cc009b9489056b767887f58e
+      internalID: 355423807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 486
+        width: 275
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed67db9b410adef46935ba8ce06f4886
+      internalID: 139202434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 492
+        width: 300
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09ea0775e20bff40a9ac00d4ccccdd2
+      internalID: -869226062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_13
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 494
+        width: 271
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c926cabf13ffd42a76afe827273bcb
+      internalID: 1372992074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_14
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 492
+        width: 267
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faa646b342f0ed4782871f8fa181cf2
+      internalID: 1729568706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 194
+        width: 590
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd441756d06bc4f95aa08c1aa7c071
+      internalID: 1597469368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 39
+        width: 362
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26ed4d13173a5c459e55b6fe3ca2dd1
+      internalID: 142486267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 53
+        width: 336
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab32aa52a484d842bd8ca0f22f110d2
+      internalID: -2059950944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_18
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 52
+        width: 380
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc04c86b16518cd45b00660df8029a7b
+      internalID: 1202813875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_19
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 295
+        width: 123
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5f2a76db8db8647ad40f8ef925c83b
+      internalID: -1038199569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_20
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 300
+        width: 142
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa25b3edacb887f488d7553c889dd1ab
+      internalID: 1432184392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_21
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 308
+        width: 144
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abeb3d5f1ae3ff498c00b534eb2c450
+      internalID: 415157483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_22
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 308
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5d90abb89572e4286e8e621ce33671
+      internalID: 476727956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_23
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 328
+        width: 92
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dab6824a6f3c6847adddfebd30972e0
+      internalID: -1346522196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_24
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 494
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05dc689e4acfea4288d61444f427f1f
+      internalID: 1329628123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_25
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 480
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcb4172e1702934d8c2447593442ae9
+      internalID: 1720899981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_26
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 311
+        width: 124
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ba029a0a4a41142a3f399f939327d6
+      internalID: 2017934725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastel Garden Game UI Kit_27
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 24
+        width: 377
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a8170f5a27a764785a4b5e230bf9cf
+      internalID: -2070940752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a521c070c18bd3948909cbe680b1c5c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pastel Garden Game UI Kit_0: -1130286364
+      Pastel Garden Game UI Kit_1: 913824246
+      Pastel Garden Game UI Kit_10: 355423807
+      Pastel Garden Game UI Kit_11: 139202434
+      Pastel Garden Game UI Kit_12: -869226062
+      Pastel Garden Game UI Kit_13: 1372992074
+      Pastel Garden Game UI Kit_14: 1729568706
+      Pastel Garden Game UI Kit_15: 1597469368
+      Pastel Garden Game UI Kit_16: 142486267
+      Pastel Garden Game UI Kit_17: -2059950944
+      Pastel Garden Game UI Kit_18: 1202813875
+      Pastel Garden Game UI Kit_19: -1038199569
+      Pastel Garden Game UI Kit_2: 1652831637
+      Pastel Garden Game UI Kit_20: 1432184392
+      Pastel Garden Game UI Kit_21: 415157483
+      Pastel Garden Game UI Kit_22: 476727956
+      Pastel Garden Game UI Kit_23: -1346522196
+      Pastel Garden Game UI Kit_24: 1329628123
+      Pastel Garden Game UI Kit_25: 1720899981
+      Pastel Garden Game UI Kit_26: 2017934725
+      Pastel Garden Game UI Kit_27: -2070940752
+      Pastel Garden Game UI Kit_3: -994032422
+      Pastel Garden Game UI Kit_4: -698618109
+      Pastel Garden Game UI Kit_5: -1204706511
+      Pastel Garden Game UI Kit_6: 1392728198
+      Pastel Garden Game UI Kit_7: 883010202
+      Pastel Garden Game UI Kit_8: -321831060
+      Pastel Garden Game UI Kit_9: -1692221577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
