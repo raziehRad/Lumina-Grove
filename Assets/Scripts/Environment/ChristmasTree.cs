@@ -14,6 +14,7 @@ public class ChristmasTree : MonoBehaviour, IInteractable
     [Header("Ending Sequence")]
     [SerializeField] private EndingCameraController endingCameraController;
     [SerializeField] private CelebrationController celebrationController;
+    [SerializeField] private CameraMovement cameraMovement;
 
     private bool completionEffectPlayed;
 
@@ -74,6 +75,7 @@ public class ChristmasTree : MonoBehaviour, IInteractable
         if (completionEffectPlayed)
             return;
 
+        cameraMovement.enabled = false;
         completionEffectPlayed = true;
         StartCoroutine(EndingSequence());
     }

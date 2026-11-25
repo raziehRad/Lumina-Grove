@@ -8837,7 +8837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &156370942
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33902,6 +33902,7 @@ MonoBehaviour:
   - {fileID: 822235211}
   endingCameraController: {fileID: 1115509819}
   celebrationController: {fileID: 1115509820}
+  cameraMovement: {fileID: 829381882}
 --- !u!114 &1115509819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66175,8 +66176,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284443817
+  m_fontColor: {r: 0.6627451, g: 0.42352945, b: 0.37254903, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -66385,8 +66386,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284443817
+  m_fontColor: {r: 0.6627451, g: 0.42352945, b: 0.37254903, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -66503,8 +66504,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284443817
+  m_fontColor: {r: 0.6627451, g: 0.42352945, b: 0.37254903, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
