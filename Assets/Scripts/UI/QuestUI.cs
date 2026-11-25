@@ -6,10 +6,8 @@ public class QuestUI : MonoBehaviour
     [Header("UI References")]
     [SerializeField] private TMP_Text progressText;
     [SerializeField] private TMP_Text statusText;
-    [SerializeField] private GameObject questCompletedPanel;
 
     [SerializeField] private QuestManager questManager;
-    [SerializeField] private GameManager gameManager;
 
     private void OnEnable()
     {
@@ -37,14 +35,14 @@ public class QuestUI : MonoBehaviour
     private void UpdateProgress()
     {
         progressText.text =
-            $"Delivered: {questManager.PlacedOrnaments}/{questManager.TotalOrnaments}";
+            $"{questManager.PlacedOrnaments}/{questManager.TotalOrnaments}";
 
         statusText.text =
-            $"Collected: {questManager.CollectedOrnaments}/{questManager.TotalOrnaments}";
+            $"{questManager.CollectedOrnaments}/{questManager.TotalOrnaments}";
     }
 
     private void ShowQuestCompleted()
     {
-        statusText.text = "All Lumina delivered!";
+        statusText.text =$"{questManager.CollectedOrnaments}/{questManager.TotalOrnaments}";
     }
 }

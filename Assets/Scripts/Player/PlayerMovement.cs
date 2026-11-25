@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
         controller = GetComponent<CharacterController>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         Move();
     }
@@ -39,11 +39,11 @@ public class PlayerMovement : MonoBehaviour
         if (controller.isGrounded && verticalVelocity < 0f)
             verticalVelocity = -2f;
 
-        verticalVelocity += gravity * Time.fixedDeltaTime;
+        verticalVelocity += gravity * Time.deltaTime;
 
         Vector3 movement = moveDirection * moveSpeed;
         movement.y = verticalVelocity;
 
-        controller.Move(movement * Time.fixedDeltaTime);
+        controller.Move(movement * Time.deltaTime);
     }
 }

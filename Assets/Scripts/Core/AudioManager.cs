@@ -45,13 +45,15 @@ public class AudioManager : MonoBehaviour
 
     [Header("Sound Effects")]
     [SerializeField] private List<SoundEntry> sounds;
-
+    [SerializeField] private Toggle musicToggle;
+    [SerializeField] private Toggle sfxToggle;
     private Dictionary<SoundType, AudioClip> soundDictionary;
 
     private bool musicEnabled = true;
     private bool sfxEnabled = true;
-   [SerializeField] private Toggle musicToggle;
-   [SerializeField] private Toggle sfxToggle;
+    private float musicVolume = 1f;
+    private float sfxVolume = 1f;
+  
 
     private void Awake()
     {
@@ -62,7 +64,8 @@ public class AudioManager : MonoBehaviour
         }
 
         Instance = this;
-
+        musicVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        sfxVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
         soundDictionary = new Dictionary<SoundType, AudioClip>();
 
         foreach (SoundEntry sound in sounds)
@@ -84,17 +87,45 @@ public class AudioManager : MonoBehaviour
 
     private void ApplyAudioSettings()
     {
-        audioMixer.SetFloat(
-            MUSIC_VOLUME,
-            musicEnabled ? NORMAL_VOLUME : MUTED_VOLUME
-        );
+        ApplyMusicVolume();
+        ApplySFXVolume();
 
-        audioMixer.SetFloat(
-            SFX_VOLUME,
-            sfxEnabled ? NORMAL_VOLUME : MUTED_VOLUME
-        );
         musicToggle.SetIsOnWithoutNotify(!musicEnabled);
         sfxToggle.SetIsOnWithoutNotify(!sfxEnabled);
+    }
+    public void SetMusicVolume(float value)
+    {
+        musicVolume = value;
+        PlayerPrefs.SetFloat("MusicVolume", value);
+        PlayerPrefs.Save();
+
+        ApplyMusicVolume();
+    }
+
+    public void SetSFXVolume(float value)
+    {
+        sfxVolume = value;
+        PlayerPrefs.SetFloat("SFXVolume", value);
+        PlayerPrefs.Save();
+
+        ApplySFXVolume();
+    }
+
+    private void ApplyMusicVolume()
+    {
+        float volume = musicEnabled ? VolumeToDB(musicVolume) : MUTED_VOLUME;
+        audioMixer.SetFloat(MUSIC_VOLUME, volume);
+    }
+
+    private void ApplySFXVolume()
+    {
+        float volume = sfxEnabled ? VolumeToDB(sfxVolume) : MUTED_VOLUME;
+        audioMixer.SetFloat(SFX_VOLUME, volume);
+    }
+
+    private float VolumeToDB(float value)
+    {
+        return value <= 0.0001f ? MUTED_VOLUME : Mathf.Log10(value) * 20f;
     }
     private void Start()
     {
@@ -134,10 +165,7 @@ public class AudioManager : MonoBehaviour
     {
         musicEnabled = value;
 
-        audioMixer.SetFloat(
-            MUSIC_VOLUME,
-            musicEnabled ? NORMAL_VOLUME : MUTED_VOLUME
-        );
+        ApplyMusicVolume();
         PlayerPrefs.SetInt("MusicEnabled", musicEnabled ? 1 : 0);
         PlayerPrefs.Save();
     }
@@ -146,10 +174,7 @@ public class AudioManager : MonoBehaviour
     {
         sfxEnabled = value;
 
-        audioMixer.SetFloat(
-            SFX_VOLUME,
-            sfxEnabled ? NORMAL_VOLUME : MUTED_VOLUME
-        );
+        ApplySFXVolume();
         PlayerPrefs.SetInt("SFXEnabled", sfxEnabled ? 1 : 0);
         PlayerPrefs.Save();
     }

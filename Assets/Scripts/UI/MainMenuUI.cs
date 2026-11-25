@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 using TMPro;
+using UI_InputSystem.Base;
+
 public class MainMenuUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text finalTimeText;
@@ -20,9 +22,12 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button backButton;
     [SerializeField] private Button doneButton;
     [SerializeField] private Button tutorialStartButton;
-    
+    [SerializeField] private Button leaderboardButton;
+    [SerializeField] private Button completeLeaderboardButton;
     [Header("References")]
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private NakamaManager nakamaManager;
+    [SerializeField] private LeaderboardUIController leaderboardUIController;
     private static bool isRestarting;
     private void Awake()
     {
@@ -32,16 +37,31 @@ public class MainMenuUI : MonoBehaviour
         backButton.onClick.AddListener(CloseSettings);
         doneButton.onClick.AddListener(CompleteGame);
         tutorialStartButton.onClick.AddListener(BeginQuest);
+        leaderboardButton.onClick.AddListener(OpenLeaderboard);
+        completeLeaderboardButton.onClick.AddListener(OpenLeaderboardFromComplete);
     }
     private void OnEnable()
     {
         GameEvents.OnQuestCompleted += ShowCompletePanel;
+        GameEvents.OnBackToMainMenu += ShowStartMenu;
     }
 
     private void OnDisable()
     {
         GameEvents.OnQuestCompleted -= ShowCompletePanel;
+        GameEvents.OnBackToMainMenu -= ShowStartMenu;
     }
+    
+    public void ShowStartMenu()
+    {
+        startMenuPanel.SetActive(true);
+        settingsPanel.SetActive(false);
+        completePanel.SetActive(false);
+        tutorialPanel.SetActive(false);
+
+        Time.timeScale = 0f;
+    }
+
     private void Start()
     {
         settingsPanel.SetActive(false);
@@ -54,7 +74,8 @@ public class MainMenuUI : MonoBehaviour
 
             startMenuPanel.SetActive(false);
 
-            gameManager.StartQuest();
+            GameEvents.RaiseStartQuest();
+          //  gameManager.StartQuest();
 
             AudioManager.Instance.PlayMusic();
         }
@@ -69,32 +90,39 @@ public class MainMenuUI : MonoBehaviour
         startMenuPanel.SetActive(false);
         settingsPanel.SetActive(false);
         tutorialPanel.SetActive(true);
-      
         AudioManager.Instance.PlayMusic();
         AudioManager.Instance.PlaySFX(SoundType.PanelOpen);
     }
     private void BeginQuest()
     {
         tutorialPanel.SetActive(false);
-
-        gameManager.StartQuest();
+        GameEvents.RaiseStartQuest();
+      //  gameManager.StartQuest();
+    }
+    private void OpenLeaderboard()
+    {
+        GameEvents.RaiseOpenLeaderboard(startMenuPanel);
+    }
+    private void OpenLeaderboardFromComplete()
+    {
+        GameEvents.RaiseOpenLeaderboard(startMenuPanel);
     }
     private void OpenSettings()
     {
-        startMenuPanel.SetActive(false);
         settingsPanel.SetActive(true);
         AudioManager.Instance.PlaySFX(SoundType.PanelOpen);
     }
     private void CloseSettings()
     {
         settingsPanel.SetActive(false);
-        startMenuPanel.SetActive(true);
         AudioManager.Instance.PlaySFX(SoundType.PanelOpen);
     }
     private void ShowCompletePanel()
     {
         float finalTime = gameManager.GetElapsedTime();
+        int score = Mathf.RoundToInt(finalTime * 1000f);
 
+        nakamaManager!.SubmitScore(score);
         int minutes = Mathf.FloorToInt(finalTime / 60);
         int seconds = Mathf.FloorToInt(finalTime % 60);
 
@@ -134,5 +162,7 @@ public class MainMenuUI : MonoBehaviour
         backButton.onClick.RemoveListener(CloseSettings);
         doneButton.onClick.RemoveListener(CompleteGame);
         tutorialStartButton.onClick.RemoveListener(BeginQuest);
+         leaderboardButton.onClick.RemoveListener(OpenLeaderboard);
+         completeLeaderboardButton.onClick.RemoveListener(OpenLeaderboardFromComplete);
     }
 }

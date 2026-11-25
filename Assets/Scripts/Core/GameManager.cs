@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class GameManager : MonoBehaviour
     [Header("Gameplay UI")]
     [SerializeField] private GameObject questPanel;
     [SerializeField] private GameObject mobileControls;
+    [SerializeField] private GameObject interactPanel;
 
     private bool isQuestActive;
     private float elapsedTime;
@@ -19,6 +21,22 @@ public class GameManager : MonoBehaviour
 
         questPanel.SetActive(false);
         mobileControls.SetActive(false);
+    }
+
+    private void OnEnable()
+    {
+        GameEvents.OnStartQuest += StartQuest;
+        GameEvents.OnCompleteQuest += CompleteQuest;
+        GameEvents.OnBackToMainMenu += HandleBackToMainMenu;
+        GameEvents.OnOpenPauseMenu += HandleOpenPauseMenu;
+    }
+
+    private void OnDisable()
+    {
+        GameEvents.OnStartQuest -= StartQuest;
+        GameEvents.OnCompleteQuest -= CompleteQuest;
+        GameEvents.OnBackToMainMenu -= HandleBackToMainMenu;
+        GameEvents.OnOpenPauseMenu -= HandleOpenPauseMenu;
     }
 
     private void Update()
@@ -33,12 +51,30 @@ public class GameManager : MonoBehaviour
         if (currentSecond != lastReportedSecond)
         {
             lastReportedSecond = currentSecond;
-            GameEvents.OnTimerUpdated?.Invoke(currentSecond);
+            GameEvents.RaiseTimerUpdated(currentSecond);
         }
     }
+    private void HandleBackToMainMenu()
+    {
+        isQuestActive = false;
 
+        SetGameplayEnabled(false);
+
+        questPanel.SetActive(false);
+        mobileControls.SetActive(false);
+        interactPanel.SetActive(false);
+    }
+    private void HandleOpenPauseMenu(bool value)
+    {
+        SetGameplayEnabled(value);
+
+        questPanel.SetActive(value);
+        mobileControls.SetActive(value);
+        interactPanel.SetActive(false);
+    }
     public void StartQuest()
     {
+        Time.timeScale = 1f;
         elapsedTime = 0f;
         lastReportedSecond = 0;
         isQuestActive = true;
@@ -48,8 +84,8 @@ public class GameManager : MonoBehaviour
 
         SetGameplayEnabled(true);
 
-        GameEvents.OnTimerUpdated?.Invoke(0);
-        GameEvents.OnQuestStarted?.Invoke();
+        GameEvents.RaiseTimerUpdated(0);
+        GameEvents.RaiseQuestStarted();
     }
 
     public void CompleteQuest()
@@ -64,7 +100,7 @@ public class GameManager : MonoBehaviour
         questPanel.SetActive(false);
         mobileControls.SetActive(false);
 
-        GameEvents.OnQuestCompleted?.Invoke();
+        GameEvents.RaiseQuestCompleted();
     }
 
     private void SetGameplayEnabled(bool value)

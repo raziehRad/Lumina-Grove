@@ -8,7 +8,7 @@ public class EndingCameraController : MonoBehaviour
     [SerializeField] private Transform endingCameraPoint;
 
     [Header("Camera Controls")]
-    [SerializeField] private CameraFollow cameraFollow;
+   // [SerializeField] private CameraFollow cameraFollow;
     [SerializeField] private PlayerLook playerLook;
 
     [Header("Movement Settings")]
@@ -29,8 +29,9 @@ public class EndingCameraController : MonoBehaviour
 
         isMoving = true;
 
-        if (cameraFollow != null)
-            cameraFollow.StopCameraControl();
+       // if (cameraFollow != null)
+            GameEvents.RaiseStopCameraControl();
+           // cameraFollow.StopCameraControl();
 
         if (playerLook != null)
             playerLook.enabled = false;

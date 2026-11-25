@@ -7,8 +7,8 @@ public class CelebrationController : MonoBehaviour
     [SerializeField] private GameObject prize;
     [SerializeField] private ParticleSystem confetti;
     [SerializeField] private ParticleSystem snow;
-    [Header("Game Manager")]
-    [SerializeField] private GameManager gameManager;
+   // [Header("Game Manager")]
+    //[SerializeField] private GameManager gameManager;
 
     [Header("Completion Settings")]
     [SerializeField] private float completionPanelDelay = 4f;
@@ -60,10 +60,8 @@ public class CelebrationController : MonoBehaviour
 
         // Wait before showing completion UI
         yield return new WaitForSeconds(completionPanelDelay);
-
-        if (gameManager != null)
-            gameManager.CompleteQuest();
-        else
-            Debug.LogError("GameManager is not assigned!", this);
+        
+          //  gameManager.CompleteQuest();
+            GameEvents.RaiseCompleteQuest();
     }
 }
