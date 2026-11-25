@@ -56,7 +56,7 @@ public class NakamaManager : MonoBehaviour
 
             Debug.Log("Connected to Nakama!");
             Debug.Log("Player ID: " + session.UserId);
-            GameEvents.RaiseShowNicknamePanel();
+          
             //nicknameUIController.ShowNicknamePanel();
         }
         catch (Exception e)

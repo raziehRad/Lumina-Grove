@@ -370,6 +370,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1146960638959043721, guid: a1fc6e15a62a7014bae4d1afc5d8359d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1146960639178663723, guid: a1fc6e15a62a7014bae4d1afc5d8359d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.08
@@ -5894,7 +5898,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 156370942}
+    m_TransformParent: {fileID: 313930270}
     m_Modifications:
     - target: {fileID: 504375914501592802, guid: 936593258fc114f458d67a7f6f06a8de, type: 3}
       propertyPath: m_Name
@@ -8623,27 +8627,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 138854555}
-  - component: {fileID: 138854554}
   - component: {fileID: 138854556}
   m_Layer: 0
-  m_Name: NakamaManager
+  m_Name: lootLockerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &138854554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138854553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 735474bb8eba52a45b98a12ded40dc35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &138854555
 Transform:
   m_ObjectHideFlags: 0
@@ -8675,7 +8666,7 @@ MonoBehaviour:
   nicknameInput: {fileID: 472945046}
   confirmButton: {fileID: 1501432377}
   errorText: {fileID: 2081037737}
-  nakamaManager: {fileID: 138854554}
+  lootLockerManager: {fileID: 1839500683}
 --- !u!1001 &141480039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8846,7 +8837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &156370942
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8859,9 +8850,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2043208656}
-  - {fileID: 255392880}
   - {fileID: 313930270}
+  - {fileID: 255392880}
   - {fileID: 1335817738}
   - {fileID: 706072727}
   - {fileID: 476519363}
@@ -13428,6 +13418,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2043208656}
   - {fileID: 191557702}
   m_Father: {fileID: 156370942}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27428,6 +27419,7 @@ Transform:
   - {fileID: 681340723}
   - {fileID: 1085869027}
   - {fileID: 138854555}
+  - {fileID: 1839500690}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &879501183
@@ -57859,6 +57851,130 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837795458}
   m_CullTransparentMesh: 1
+--- !u!1 &1839500682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839500690}
+  - component: {fileID: 1839500689}
+  - component: {fileID: 1839500688}
+  - component: {fileID: 1839500687}
+  - component: {fileID: 1839500686}
+  - component: {fileID: 1839500685}
+  - component: {fileID: 1839500684}
+  - component: {fileID: 1839500683}
+  m_Layer: 0
+  m_Name: LootLockerLifecycleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1839500683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a286850f82e4f7fb0d228eb4bcb0add, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLoggedIn: 0
+  leaderboardKey: 38951
+--- !u!114 &1839500684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc96f66f8c7592343a026d27340b3f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1839500685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5fc10ff3e874bfcaa15e18367075e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1839500686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25f96678d5775446bdfc0f6bef6a7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1839500687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a3b9b1ff28078439dd7b4c2a8e745a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1839500688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9097699b2a8684c5f8275046ab9bfc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1839500689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c7d92e4f8d4e4b8a5c2d1e9f6a3b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1839500690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839500682}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.763973, y: 3.1038582, z: -16.879892}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 878811217}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1844447192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58713,13 +58829,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860667598}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2121392, y: -0.2162756, z: 0.04820463, w: 0.9517869}
-  m_LocalPosition: {x: 21.99, y: 6.17, z: 14.18}
+  m_LocalRotation: {x: 0.13691492, y: -0.16136366, z: 0.049368452, w: 0.9761039}
+  m_LocalPosition: {x: 21.5, y: 4.93, z: 15.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 25.13, y: -25.604, z: 0}
+  m_LocalEulerAnglesHint: {x: 16.452, y: -18.323, z: 3.12}
 --- !u!1 &1861166305
 GameObject:
   m_ObjectHideFlags: 0
@@ -60010,7 +60126,7 @@ MonoBehaviour:
   leaderboardButton: {fileID: 280496207}
   completeLeaderboardButton: {fileID: 914915407}
   gameManager: {fileID: 1917014997}
-  nakamaManager: {fileID: 138854554}
+  lootLockerManager: {fileID: 1839500683}
   leaderboardUIController: {fileID: 1917014998}
 --- !u!4 &1917014996
 Transform:
@@ -60059,7 +60175,7 @@ MonoBehaviour:
   goldMedal: {fileID: 101800052, guid: 807523d0e6bf6184abcf7f9e748eea6c, type: 3}
   silverMedal: {fileID: -1860834995, guid: 807523d0e6bf6184abcf7f9e748eea6c, type: 3}
   bronzeMedal: {fileID: -202538591, guid: 807523d0e6bf6184abcf7f9e748eea6c, type: 3}
-  nakamaManager: {fileID: 138854554}
+  lootLockerManager: {fileID: 1839500683}
   leaderboardPanel: {fileID: 1446305972}
   content: {fileID: 411932094}
   recordPrefab: {fileID: 6449556034129844842, guid: fbb688c5cac9e3448817086627396e7c, type: 3}

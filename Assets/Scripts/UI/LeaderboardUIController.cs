@@ -2,9 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Nakama;
+using LootLocker.Requests;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class LeaderboardUIController : MonoBehaviour
@@ -14,7 +15,7 @@ public class LeaderboardUIController : MonoBehaviour
     [SerializeField] private Sprite silverMedal;
     [SerializeField] private Sprite bronzeMedal;
     [Header("References")]
-    [SerializeField] private NakamaManager nakamaManager;
+    [SerializeField] private LootLockerManager lootLockerManager;
     [SerializeField] private GameObject leaderboardPanel;
     [SerializeField] private Transform content;
     [SerializeField] private LeaderboardRowUI recordPrefab;
@@ -49,8 +50,8 @@ public class LeaderboardUIController : MonoBehaviour
         statusText.text = "Loading...";
         ClearRecords();
 
-        IApiLeaderboardRecordList result =
-            await nakamaManager.GetLeaderboard();
+        LootLockerGetScoreListResponse result =
+            await lootLockerManager.GetLeaderboard();
 
         if (!leaderboardPanel.activeInHierarchy)
             return;
@@ -64,28 +65,37 @@ public class LeaderboardUIController : MonoBehaviour
         statusText.text = "";
         DisplayRecords(result);
     }
-    private void DisplayRecords(IApiLeaderboardRecordList result)
+   
+    private void DisplayRecords(LootLockerGetScoreListResponse result)
     {
-        foreach (var record in result.Records)
+        if (result.items == null || result.items.Length == 0)
+        {
+            statusText.text = "No records yet.";
+            return;
+        }
+
+        foreach (var record in result.items)
         {
             LeaderboardRowUI row = Instantiate(recordPrefab, content);
 
             if (row == null)
             {
                 Debug.LogError("LeaderboardRowUI is missing!");
-                Destroy(row);
                 continue;
             }
 
+            string playerName = string.IsNullOrEmpty(record.player?.name)
+                ? "Gardener"
+                : record.player.name;
+
             row.Setup(
-                record.Rank,
-                string.IsNullOrEmpty(record.Username)
-                    ? "Gardener"
-                    : record.Username,
-                long.Parse(record.Score)
+                record.rank.ToString(),
+                playerName,
+                record.score
             );
         }
     }
+
     private void ClearRecords()
     {
         foreach (Transform child in content)

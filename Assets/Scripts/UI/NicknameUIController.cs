@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading.Tasks;
+using UnityEngine.Serialization;
 
 public class NicknameUIController : MonoBehaviour
 {
@@ -11,9 +12,9 @@ public class NicknameUIController : MonoBehaviour
     [SerializeField] private TMP_InputField nicknameInput;
     [SerializeField] private Button confirmButton;
     [SerializeField] private TMP_Text errorText;
-
+    
     [Header("References")]
-    [SerializeField] private NakamaManager nakamaManager;
+    [SerializeField] private LootLockerManager lootLockerManager;
 
     private void Awake()
     {
@@ -34,7 +35,7 @@ public class NicknameUIController : MonoBehaviour
 
     public async void ShowNicknamePanel()
     {
-        bool hasNickname = await nakamaManager.HasChosenNickname();
+       bool hasNickname = await lootLockerManager.HasChosenNickname();
 
         nicknamePanel.SetActive(!hasNickname);
 
@@ -68,7 +69,7 @@ public class NicknameUIController : MonoBehaviour
 
     private async Task SaveNickname(string nickname)
     {
-        bool success = await nakamaManager.SetNickname(nickname);
+        bool success = await lootLockerManager.SetNickname(nickname);
 
         if (success)
         {

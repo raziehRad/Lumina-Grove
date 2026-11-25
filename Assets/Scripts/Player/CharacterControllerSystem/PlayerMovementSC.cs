@@ -30,13 +30,6 @@ public class PlayerMovementSC : MonoBehaviour
     
     public bool Grounded => Physics.CheckSphere(groundChecker.position, groundDistance, groundMask);
     
-    private void Update()
-    {
-        Debug.Log(
-            "Movement Input: " +
-            UIInputSystem.ME.GetAxis(JoyStickAction.Movement)
-        );
-    }
     private void FixedUpdate()
     {
         MovePlayer();

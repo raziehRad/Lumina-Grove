@@ -25,8 +25,8 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button leaderboardButton;
     [SerializeField] private Button completeLeaderboardButton;
     [Header("References")]
-    [SerializeField] private GameManager gameManager;
-    [SerializeField] private NakamaManager nakamaManager;
+    [SerializeField] private GameManager gameManager; 
+    [SerializeField] private LootLockerManager lootLockerManager;
     [SerializeField] private LeaderboardUIController leaderboardUIController;
     private static bool isRestarting;
     private void Awake()
@@ -122,7 +122,7 @@ public class MainMenuUI : MonoBehaviour
         float finalTime = gameManager.GetElapsedTime();
         int score = Mathf.RoundToInt(finalTime * 1000f);
 
-        nakamaManager!.SubmitScore(score);
+        lootLockerManager!.SubmitScore(score);
         int minutes = Mathf.FloorToInt(finalTime / 60);
         int seconds = Mathf.FloorToInt(finalTime % 60);
 
